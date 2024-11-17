@@ -92,13 +92,7 @@ $ git clone https://github.com/ZhouQuan-7237/Tasks.git
 $ git commit -m "new file hello.md"
 ```
 
-**（6）推送本地仓库文件到远程仓库：**使用`Git Bash`依次输入类似以下的指令即可。
-
-```
-$ git remote add origin https://github.com/ZhouQuan-7237/Tasks.git
-$ git branch -M main 
-$ git push -u origin main
-```
+**（6）推送本地仓库文件到远程仓库：**使用`Git Bash`输入`$ git push -u origin main`指令即可。
 
 **（7）从远程仓库获取更新：**使用`Git Bash`输入`$ git pull origin main`指令即可。
 
