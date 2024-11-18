@@ -493,5 +493,15 @@ src="./碎梦渐全.jpg" 表示图片在当前 HTML 文件所在目录的相对�
 
 ​      
 
+# 参考资料
 
+1. [Html和css入门（更新中）](https://zhuanlan.zhihu.com/p/268900362)
+
+2. [史上最全的HTML、CSS知识点总结，浅显易懂。适合入门新手](https://zhuanlan.zhihu.com/p/62967499)
+
+3. [前端三剑客 HTML、CSS、JavaScript 入门到上手](https://zhuanlan.zhihu.com/p/526785618)
+
+4. [二十分钟HTML快速入门 | 无废话且清晰流畅 | 手敲键盘 | WEB前端必备语言~](【二十分钟HTML快速入门 | 无废话且清晰流畅 | 手敲键盘 | WEB前端必备语言~】https://www.bilibili.com/video/BV1jf4y1J7Ms?vd_source=c91cd0d85dd28e19f062edef99115834)
+
+5. [3小时前端入门教程（HTML+CSS+JS）](【3小时前端入门教程（HTML+CSS+JS）】https://www.bilibili.com/video/BV1BT4y1W7Aw?vd_source=c91cd0d85dd28e19f062edef99115834)
 
