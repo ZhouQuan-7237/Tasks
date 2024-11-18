@@ -955,6 +955,6 @@ opacity属性调整整个元素及所有子元素的透明度，取值范围也�
 
 4. [CSS入门最全笔记](https://zhuanlan.zhihu.com/p/429033172)
 
-5. [十七分钟CSS快速入门 | 无废话且清晰流畅 | WEB前端必备程序语言~](【十七分钟CSS快速入门 | 无废话且清晰流畅 | WEB前端必备程序语言~】https://www.bilibili.com/video/BV1Ci4y1W7H7?vd_source=c91cd0d85dd28e19f062edef99115834)
+5. [十七分钟CSS快速入门 | 无废话且清晰流畅 | WEB前端必备程序语言~](https://www.bilibili.com/video/BV1Ci4y1W7H7?vd_source=c91cd0d85dd28e19f062edef99115834)
 
 6. [3小时前端入门教程（HTML+CSS+JS）](【3小时前端入门教程（HTML+CSS+JS）】https://www.bilibili.com/video/BV1BT4y1W7Aw?vd_source=c91cd0d85dd28e19f062edef99115834)
