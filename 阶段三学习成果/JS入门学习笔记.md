@@ -618,6 +618,6 @@ JavaScript 对象是由属性（键值对）和方法组成的数据结构
 
 1. [前端三剑客 HTML、CSS、JavaScript 入门到上手](https://zhuanlan.zhihu.com/p/526785618)
 
-2. [四十分钟JavaScript快速入门 | 无废话且清晰流畅 | 手敲键盘 | WEB前端必备程序语言~](【四十分钟JavaScript快速入门 | 无废话且清晰流畅 | 手敲键盘 | WEB前端必备程序语言~】https://www.bilibili.com/video/BV15L4y1a7or?vd_source=c91cd0d85dd28e19f062edef99115834)
+2. [四十分钟JavaScript快速入门 | 无废话且清晰流畅 | 手敲键盘 | WEB前端必备程序语言~](https://www.bilibili.com/video/BV15L4y1a7or?vd_source=c91cd0d85dd28e19f062edef99115834)
 
-3. [3小时前端入门教程（HTML+CSS+JS）](【3小时前端入门教程（HTML+CSS+JS）】https://www.bilibili.com/video/BV1BT4y1W7Aw?vd_source=c91cd0d85dd28e19f062edef99115834)
+3. [3小时前端入门教程（HTML+CSS+JS）](https://www.bilibili.com/video/BV1BT4y1W7Aw?vd_source=c91cd0d85dd28e19f062edef99115834)
