@@ -8,5 +8,5 @@
 ### 1. [HTML入门学习笔记](https://github.com/ZhouQuan-7237/Tasks/blob/main/HTML%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 ### 2. [CSS入门学习笔记](https://github.com/ZhouQuan-7237/Tasks/blob/main/CSS%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 ### 3. [JS入门学习笔记](https://github.com/ZhouQuan-7237/Tasks/blob/main/JS%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
-### 4. [简单网页]（https://zhouquan-7237.github.io/Tasks/)
-### 5. [简单网页源代码]（https://github.com/ZhouQuan-7237/Tasks/blob/main/docs/index.html)
+### 4. [简单网页](https://zhouquan-7237.github.io/Tasks/)
+### 5. [简单网页源代码](https://github.com/ZhouQuan-7237/Tasks/blob/main/docs/index.html)
