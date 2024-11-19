@@ -272,14 +272,14 @@ print("Hello World")
 **（2）示例：**
 
 ```text
-![QQ头像]("C:\Users\zq113\Desktop\touxiang.jpg")
+![QQ头像]("https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/%E7%A2%8E%E6%A2%A6%E6%B8%90%E5%85%A8.jpg")
 ```
 
 **（3）效果：**
 
 
 
-![图片说明](C:\Users\zq113\Desktop\touxiang.jpg)
+![QQ头像](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/%E7%A2%8E%E6%A2%A6%E6%B8%90%E5%85%A8.jpg)
 
 #### **8.引用**
 
@@ -386,5 +386,3 @@ print("Hello World")
 |  源代码模式  |        `Cmd` + `/`         |        `Ctrl` + `/`         |                  |
 |   专注模式   |            `F8`            |            `F8`             |                  |
 |  打字机模式  |            `F9`            |            `F9`             |                  |
-
-### 

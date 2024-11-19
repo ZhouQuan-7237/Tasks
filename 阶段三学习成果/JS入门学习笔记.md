@@ -1,7 +1,5 @@
 # JS入门学习笔记-周全
 
----
-
 ## 学习目录
 
 #### 一.JS简介
@@ -88,9 +86,9 @@
 
 在HTML文档中直接嵌入JS代码，CSS代码是放在style标签内，而JS代码是放在head部分或body部分的script标签内。
 
-![屏幕截图 2024-11-17 100935](C:\Users\zq113\Pictures\Screenshots\屏幕截图 2024-11-17 100935.png)
+![屏幕截图 2024-11-17 100935](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 100935.png)
 
-![屏幕截图 2024-11-17 100945](C:\Users\zq113\Pictures\Screenshots\屏幕截图 2024-11-17 100945.png)
+![屏幕截图 2024-11-17 100945](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 100945.png)
 
 ```html
 <!DOCTYPE html>
@@ -117,9 +115,9 @@
 
 把JS代码，单独保存外部文件中，通过script标签的src属性引入HTML文档。
 
-![image-20241117101245337](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117101245337.png)
+![image-20241117101245337](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117101245337.png)
 
-![image-20241117101326755](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117101326755.png)
+![image-20241117101326755](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117101326755.png)
 
 
 
@@ -197,9 +195,9 @@ while(循环条件){
 
 `continue`用于跳过当前循环中的剩余代码，继续下一次循环。
 
-![屏幕截图 2024-11-17 103126](C:\Users\zq113\Pictures\Screenshots\屏幕截图 2024-11-17 103126.png)
+![屏幕截图 2024-11-17 103126](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 103126.png)
 
-![屏幕截图 2024-11-17 103150](C:\Users\zq113\Pictures\Screenshots\屏幕截图 2024-11-17 103150.png)
+![屏幕截图 2024-11-17 103150](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 103150.png)
 
 ```html
 <!DOCTYPE html>
@@ -289,7 +287,7 @@ while(循环条件){
 | **常用方法** | `toFixed()`、`parseInt()`、`parseFloat()` 等。 | 逻辑运算符：`&&`、`||`、`!`。   |
 | **应用场景** | 数学运算、格式化数值、数据转换等。             | 条件判断、逻辑控制。            |
 
-![image-20241117104505895](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117104505895.png)
+![image-20241117104505895](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117104505895.png)
 
 ```html
 <!DOCTYPE html>
@@ -327,7 +325,7 @@ while(循环条件){
   
   * ##### 字符串内置方法
 
-![image-20241117104849532](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117104849532.png)
+![image-20241117104849532](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117104849532.png)
 
 ```html
 <!DOCTYPE html>
@@ -373,7 +371,7 @@ function function_name(参数1，参数2，参数3，...){//参数可以不写�
 
 在函数外部声明的变量具有全局作用域。
 
-![image-20241117105202018](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117105202018.png)
+![image-20241117105202018](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117105202018.png)
 
 ```html
 <!DOCTYPE html>
@@ -435,7 +433,7 @@ function function_name(参数1，参数2，参数3，...){//参数可以不写�
 
   * ##### 内置方法
 
-  ![image-20241117105848344](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117105848344.png)
+  ![image-20241117105848344](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117105848344.png)
 
 ```html
 <!DOCTYPE html>
@@ -476,7 +474,7 @@ JavaScript 对象是由属性（键值对）和方法组成的数据结构
 
 
 
-![image-20241117110128681](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117110128681.png)
+![image-20241117110128681](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117110128681.png)
 
 ```html
 <!DOCTYPE html>
@@ -524,7 +522,7 @@ JavaScript 对象是由属性（键值对）和方法组成的数据结构
 
 * #### 对象数组
 
-![image-20241117110632589](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117110632589.png)
+![image-20241117110632589](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117110632589.png)
 
 ```html
 <!DOCTYPE html>

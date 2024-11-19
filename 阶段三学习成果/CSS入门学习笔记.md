@@ -113,7 +113,7 @@
 
   把CSS样式直接放在HTML标签中，在style属性中直接定义样式。
 
-  ![image-20241116201807914](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116201807914.png)
+  ![image-20241116201807914](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116201807914.png)
 
 ```html
 <!DOCTYPE html>
@@ -133,7 +133,7 @@
 
   在`<head>`标签中添加`<style>`标签来定义样式
 
-![image-20241116202335978](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116202335978.png)
+![image-20241116202335978](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116202335978.png)
 
 ```html
 <!DOCTYPE html>
@@ -159,7 +159,7 @@
 
   先在外部的CSS文件中定义样式，然后在HTML文档的`<head>`标签里添加`<link>`标签，把CSS文件链接到这个HTML文档中
 
-![image-20241116202510847](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116202510847.png)
+![image-20241116202510847](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116202510847.png)
 
 ```html
 <!DOCTYPE html>
@@ -193,7 +193,7 @@ p {
 
 * **font复合属性：**可以通过这一个属性设置多个样式。
 
-  ![image-20241116210035071](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116210035071.png)
+  ![image-20241116210035071](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116210035071.png)
 
 ```html
 <!DOCTYPE html>
@@ -211,7 +211,7 @@ p {
 
 * **line-height属性：**调节行间距。
 
-  ![image-20241116210246846](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116210246846.png)
+  ![image-20241116210246846](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116210246846.png)
 
 ```html
 <!DOCTYPE html>
@@ -232,7 +232,7 @@ p {
 
 * **height属性：**调节高度。
 
-![image-20241116210713449](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116210713449.png)
+![image-20241116210713449](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116210713449.png)
 
 ```html
 <!DOCTYPE html>
@@ -288,7 +288,7 @@ CSS选择器允许我们对选择的一个或一组元素定义样式，**常见
 
 * **伪类选择器**（选择HTML文档中元素的特定状态或位置）
 
-![image-20241116231927821](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116231927821.png)
+![image-20241116231927821](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116231927821.png)
 
 ```html
 <!DOCTYPE html>
@@ -371,7 +371,7 @@ CSS选择器允许我们对选择的一个或一组元素定义样式，**常见
 
 **盒子模型：文档中的每个元素都可以被看成是一个矩形的盒子，这个盒子包含了内容（content）、内边距（padding）、文本边框（border）和 外边距（margin）**。
 
-![e065c41ed61e2b0e5f680ed866e46dbc_720](C:\Users\zq113\Documents\Tencent Files\1134547237\nt_qq\nt_data\Pic\2024-11\Thumb\e065c41ed61e2b0e5f680ed866e46dbc_720.png)
+![e065c41ed61e2b0e5f680ed866e46dbc_720](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/e065c41ed61e2b0e5f680ed866e46dbc_720.png)
 
 |       属性名       |                             说明                             |
 | :----------------: | :----------------------------------------------------------: |
@@ -382,7 +382,7 @@ CSS选择器允许我们对选择的一个或一组元素定义样式，**常见
 
 
 
-![image-20241116233210506](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116233210506.png)
+![image-20241116233210506](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116233210506.png)
 
 ```html
 <!DOCTYPE html>
@@ -451,7 +451,7 @@ CSS选择器允许我们对选择的一个或一组元素定义样式，**常见
 
    边框颜色border color等。
 
-![image-20241116235615992](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116235615992.png)
+![image-20241116235615992](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116235615992.png)
 
 ```html
 <!DOCTYPE html>
@@ -499,7 +499,7 @@ rgba属性可以调节当前文本或背景颜色的透明度，取值范围0~1�
 
 opacity属性调整整个元素及所有子元素的透明度，取值范围也是0~1。
 
-![image-20241117000151632](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117000151632.png)
+![image-20241117000151632](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117000151632.png)
 
 ```html
 <!DOCTYPE html>
@@ -533,7 +533,7 @@ opacity属性调整整个元素及所有子元素的透明度，取值范围也�
 
 #### 3. 文本样式
 
-![image-20241117001148535](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117001148535.png)
+![image-20241117001148535](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117001148535.png)
 
 ```html
 <!DOCTYPE html>
@@ -587,7 +587,7 @@ opacity属性调整整个元素及所有子元素的透明度，取值范围也�
 
 * #### 普通流布局（元素按文档默认规则从上到下、从左到右排列）
 
-  ![image-20241117084637490](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117084637490.png)
+  ![image-20241117084637490](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117084637490.png)
 
   ```html
   <!DOCTYPE html>
@@ -632,7 +632,7 @@ opacity属性调整整个元素及所有子元素的透明度，取值范围也�
 
     
 
-  ![image-20241117084814582](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117084814582.png)
+  ![image-20241117084814582](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117084814582.png)
 
   ```html
   <!DOCTYPE html>
@@ -748,7 +748,7 @@ opacity属性调整整个元素及所有子元素的透明度，取值范围也�
 
 * #### 弹性布局（一维布局，灵活实现水平或垂直居中对齐，适合导航栏等场景）
 
-  ![image-20241117090347644](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117090347644.png)
+  ![image-20241117090347644](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117090347644.png)
 
   ```html
   <!DOCTYPE html>
@@ -804,7 +804,7 @@ opacity属性调整整个元素及所有子元素的透明度，取值范围也�
 
 * #### 网格布局（二维布局，可同时精确控制行和列，适合复杂页面设计）
 
-![image-20241117090548126](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117090548126.png)
+![image-20241117090548126](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117090548126.png)
 
 ```html
 <!DOCTYPE html>
@@ -873,7 +873,7 @@ opacity属性调整整个元素及所有子元素的透明度，取值范围也�
 
   定位布局控制精准，但不够灵活。
 
-![image-20241117094502455](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241117094502455.png)
+![image-20241117094502455](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117094502455.png)
 
 ```html
 <!DOCTYPE html>

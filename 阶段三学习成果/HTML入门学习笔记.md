@@ -143,7 +143,7 @@
 
 * ##### 标题标签（`<h1>` 到 `<h6>`）
 
-  ![image-20241116130803492](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116130803492.png)
+  ![image-20241116130803492](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116130803492.png)
 
 ```html
 <h1>一级标题</h1>
@@ -156,7 +156,7 @@
 
 * ##### 段落标签（`<p>`）
 
-  ![image-20241116191305069](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116191305069.png)
+  ![image-20241116191305069](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116191305069.png)
 
 ```html
 <p>这是一个段落</p>
@@ -164,7 +164,7 @@
 
 * ##### 换行标签（`<br>`）
 
-  ![image-20241116191322588](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116191322588.png)
+  ![image-20241116191322588](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116191322588.png)
 
 ```html
 <p>这是一个段落</p><br><p>这是另一个段落</p>
@@ -172,7 +172,7 @@
 
 * ##### 注释标签（`<!-- ... -->`）
 
-  ![image-20241116191440289](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116191440289.png)
+  ![image-20241116191440289](D:\QQ头像\image-20241116191440289.png)
 
 ```html
 <!-- 注释 -->
@@ -180,7 +180,7 @@
 
 * ##### 分隔线标签（`<hr>`）
 
-  ![image-20241116191340501](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116191340501.png)
+  ![image-20241116191340501](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116191340501.png)
 
 ```html
 <p>这是一个段落</p>
@@ -190,7 +190,7 @@
 
 * ##### 文本格式化标签
 
-  ![image-20241116191359514](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116191359514.png)
+  ![image-20241116191359514](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116191359514.png)
 
   * ###### 加粗（`<b>` 或 `<strong>`）
 
@@ -220,7 +220,7 @@
 
 * ##### 有序列表标签（`<ol>` 和 `<li>`）
 
-  ![image-20241116130655645](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116130655645.png)
+  ![image-20241116130655645](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116130655645.png)
 
 ``` html
 <ol>
@@ -232,7 +232,7 @@
 
 * ##### 无序列表标签（`<ul>` 和 `<li>`）
 
-  ![image-20241116130718522](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116130718522.png)
+  ![image-20241116130718522](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116130718522.png)
 
 ```html
 <ul>
@@ -250,7 +250,7 @@
 
 * ##### 表格数据（`<td>`）
 
-  ![image-20241116130604218](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116130604218.png)
+  ![image-20241116130604218](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116130604218.png)
 
 ```html
 <table border="1"><!-- 表格边框粗细为1像素 -->
@@ -274,7 +274,7 @@
 
 #### 4. 图片标签（`<img>`）
 
-![碎梦渐全](D:\QQ头像\碎梦渐全.jpg)
+![碎梦渐全](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/%E7%A2%8E%E6%A2%A6%E6%B8%90%E5%85%A8.jpg)
 
 ```html
 <img src="./碎梦渐全.jpg" 
@@ -314,7 +314,7 @@ src="./碎梦渐全.jpg" 表示图片在当前 HTML 文件所在目录的相对�
 * ##### 多选框标签（`<input type="checkbox">`）
 * ##### 提交标签（`<input type="submit">`）
 
-![image-20241116170352074](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116170352074.png)
+![image-20241116170352074](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116170352074.png)
 
 ```html
 <form><!--表单的容器-->
@@ -382,7 +382,7 @@ src="./碎梦渐全.jpg" 表示图片在当前 HTML 文件所在目录的相对�
 | **嵌套规则** | 可以嵌套块级元素和行内元素               | 只能嵌套行内元素                       |
 | **常见场景** | 用作容器划分页面的头部、侧边栏或主内容等 | 给文字加颜色、样式，标记部分内容       |
 
-![image-20241116184853481](C:\Users\zq113\AppData\Roaming\Typora\typora-user-images\image-20241116184853481.png)
+![image-20241116184853481](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116184853481.png)
 
 ```html
 <div class="content">
