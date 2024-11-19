@@ -172,7 +172,7 @@
 
 * ##### 注释标签（`<!-- ... -->`）
 
-  ![image-20241116191440289](D:\QQ头像\image-20241116191440289.png)
+  ![image-20241116191440289](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241116191440289.png)
 
 ```html
 <!-- 注释 -->
