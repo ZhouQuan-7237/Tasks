@@ -86,9 +86,13 @@
 
 在HTML文档中直接嵌入JS代码，CSS代码是放在style标签内，而JS代码是放在head部分或body部分的script标签内。
 
-![屏幕截图 2024-11-17 100935](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 100935.png)
+![屏幕截图 2024-11-19 175657](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-19%20175657.png)
 
-![屏幕截图 2024-11-17 100945](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 100945.png)
+![屏幕截图 2024-11-19 175825](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-19%20175825.png)
+
+
+
+
 
 ```html
 <!DOCTYPE html>
@@ -195,9 +199,9 @@ while(循环条件){
 
 `continue`用于跳过当前循环中的剩余代码，继续下一次循环。
 
-![屏幕截图 2024-11-17 103126](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 103126.png)
+![屏幕截图 2024-11-17 103126](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-17%20103126.png)
 
-![屏幕截图 2024-11-17 103150](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2024-11-17 103150.png)
+![屏幕截图 2024-11-17 103150](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-17%20103150.png)
 
 ```html
 <!DOCTYPE html>
