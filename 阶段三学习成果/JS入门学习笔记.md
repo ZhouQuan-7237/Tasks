@@ -115,9 +115,9 @@
 
 把JS代码，单独保存外部文件中，通过script标签的src属性引入HTML文档。
 
-！[image-20241117101245337](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117101245337.png)
+![image-20241117101245337](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117101245337.png)
 
-！[image-20241117101326755](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117101326755.png)
+![image-20241117101326755](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20241117101326755.png)
 
 
 
