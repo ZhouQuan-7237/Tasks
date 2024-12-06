@@ -11,5 +11,5 @@
 ### 4. [简单网页](https://zhouquan-7237.github.io/Tasks/docs/index.html)
 ### 5. [简单网页源代码](https://github.com/ZhouQuan-7237/Tasks/blob/main/docs/index.html)
 # 阶段四学习成果
-### 1.[复刻网页](https://zhouquan-7237.github.io/Tasks/%E9%98%B6%E6%AE%B5%E5%9B%9B%E5%AD%A6%E4%B9%A0%E6%88%90%E6%9E%9C/Geek.html)
-### 2.[复刻网页源代码](https://github.com/ZhouQuan-7237/Tasks/tree/main/%E9%98%B6%E6%AE%B5%E5%9B%9B%E5%AD%A6%E4%B9%A0%E6%88%90%E6%9E%9C)
+### 1.[Geek组旧版招新网站复刻](https://zhouquan-7237.github.io/Tasks/%E9%98%B6%E6%AE%B5%E5%9B%9B%E5%AD%A6%E4%B9%A0%E6%88%90%E6%9E%9C/HTML/Geek.html)
+### 2.[Geek组旧版招新网站复刻源代码](https://github.com/ZhouQuan-7237/Tasks/tree/main/%E9%98%B6%E6%AE%B5%E5%9B%9B%E5%AD%A6%E4%B9%A0%E6%88%90%E6%9E%9C)
