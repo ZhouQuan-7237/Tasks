@@ -431,7 +431,7 @@ html, body {
     position: absolute; /* 使用绝对定位 */
     width: 120px;  /* 设置宽度。“px”：设置元素宽度固定大小;“%”：设置元素宽度相对于父容器宽度的百分比 */
     height: 120px; /* 设置高度。“px”：设置元素高度固定大小;“%”：设置元素高度相对于父容器高度的百分比*/
-    background: url() no-repeat center center; /* 引入背景图片,设置不重复,且在容器中水平和垂直居中显示 */
+    background: url('../images/decoration_Decoration.png') no-repeat center center; /* 引入背景图片,设置不重复,且在容器中水平和垂直居中显示 */
     background-size: contain;  /* 设置背景图片适应容器的大小 */
     z-index: 10; /* 设置堆叠层级。堆叠层级越大,图层越靠上 */
 }
