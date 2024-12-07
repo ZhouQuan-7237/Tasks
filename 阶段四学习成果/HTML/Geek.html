@@ -24,7 +24,7 @@
                 <li id="Introduction"><!-- <li>是<ul>的子元素，表示单个导航项 -->
                     <div id="intro" class="section"><!-- <div>定义该导航项的内容区域 -->
                         <a href="javascript:;" onclick="scrollToSection('introplace')">Introduction <i class="fa fa-angle-down"></i></a>
-                        <!-- <a>是链接标签,点击导航项后通过JavaScript使页面滚动到名为introplace的目标位置 -->
+                        <!-- <a>是链接标签,href="javascript:;"确保点击导航项不会跳转页面,onclick="scrollToSection('introplace')"使得点击导航项后通过JavaScript使页面滚动到名为introplace的目标位置 -->
                         <!-- <i>标签引入Font Awesome图标库提供的下拉箭头图标 -->
                     </div>
                     <div class="dropdown-image"><!--<div>定义包裹下拉图片的内容区域-->
@@ -36,7 +36,7 @@
                 <!-- About Us导航项 -->
                 <li id="About Us" class="section"><!-- <li>是<ul>的子元素，表示单个导航项 -->
                     <a href="javascript:;"onclick="scrollToSection('about-box')">About US <i class="fa fa-user"></i></a>
-                    <!-- <a>是链接标签,点击导航项后通过JavaScript使页面滚动到名为about-box的目标位置 -->
+                    <!-- <a>是链接标签,href="javascript:;"确保点击导航项不会跳转页面,onclick="scrollToSection('about-box')"使得点击导航项后通过JavaScript使页面滚动到名为about-box的目标位置 -->
                     <!-- <i>标签引入Font Awesome图标库提供的用户图标 -->
                 </li>
 
@@ -50,14 +50,14 @@
                 <!-- Contact Us导航项 -->
                 <li id="Contact Us" class="section"><!-- <li>是<ul>的子元素，表示单个导航项 -->
                     <a href="javascript:;" onclick="scrollToSection('contact-box')">Contact Us <i class="fa fa-phone"></i> </a>
-                    <!-- <a>是链接标签,点击导航项后通过JavaScript使页面滚动到名为contact-box的目标位置 -->
+                    <!-- <a>是链接标签,href="javascript:;"确保点击导航项不会跳转页面,onclick="scrollToSection('contact-box')"使得点击导航项后通过JavaScript使页面滚动到名为contact-box的目标位置 -->
                     <!-- <i>标签引入Font Awesome图标库提供的电话图标 -->
                 </li>
 
                 <!-- Q&A导航项 -->
                 <li id="Q&A" class="section"><!-- <li>是<ul>的子元素，表示单个导航项 -->
                     <a href="javascript:;" onclick="scrollToSection('center-QA')">Q&A <i class="fa fa-comments"></i></a><!-- 链接到Q&A模块，同时加入Font Awesome的评论图标 -->
-                    <!-- <a>是链接标签,点击导航项后通过JavaScript使页面滚动到名为center-QA的目标位置 -->
+                    <!-- <a>是链接标签,href="javascript:;"确保点击导航项不会跳转页面,onclick="scrollToSection('center-QA')"使得点击导航项后通过JavaScript使页面滚动到名为center-QA的目标位置 -->
                     <!-- <i>标签引入Font Awesome图标库提供的评论图标 -->
                 </li>
             </ul>
@@ -227,7 +227,7 @@
             <!-- Contact Us按钮部分 -->
             <div class="contact-methods"><!-- <div>定义Contact U按钮的内容区域 -->  
                 <a href="#" class="contact-link">QQ-Group <i class="fa fa-qq"></i></a><!-- <a>是链接标签,href="#"表示链接无指定目标,<i>标签引入Font Awesome图标库提供的QQ图标 -->
-                <a href="javascript:void(0);" class="contact-link" id="email-button">E-mail <i class="fa fa-envelope"></i></a><!-- <a>是链接标签,点击按钮后通过JavaScript使页面显示出弹窗,<i>标签引入Font Awesome图标库提供的邮件图标 -->
+                <a href="javascript:;" class="contact-link" id="email-button">E-mail <i class="fa fa-envelope"></i></a><!-- <a>是链接标签,href="javascript:;" 确保点击按钮后不会跳转页面,点击按钮后会通过JavaScript使页面显示出弹窗,<i>标签引入Font Awesome图标库提供的邮件图标 -->
                 <a href="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click&vd_source=4fd345da90efe43959b302726653c554" target="_blank" class="contact-link">Github <i class="fa fa-github"></i></a>
                 <!-- <a>标签链接到指定网页,设置 target="_blank"使其在新标签页中打开,<i>标签引入Font Awesome图标库提供的github图标 -->
             </div>
