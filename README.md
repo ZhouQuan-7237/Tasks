@@ -16,3 +16,5 @@
 ### 2.[Geek组旧版招新网站复刻源代码](https://github.com/ZhouQuan-7237/Tasks/tree/main/%E9%98%B6%E6%AE%B5%E5%9B%9B%E5%AD%A6%E4%B9%A0%E6%88%90%E6%9E%9C)
 # 中期考核成果展示
 ### 1.[Geek组中期考核成果展示PPT](https://github.com/ZhouQuan-7237/Tasks/blob/main/Geek%E7%BB%84%E4%B8%AD%E6%9C%9F%E8%80%83%E6%A0%B8%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA/Geek%E7%BB%84%E4%B8%AD%E6%9C%9F%E8%80%83%E6%A0%B8%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA-%E5%91%A8%E5%85%A8.pptx)
+# 阶段五学习成果
+### 1.[阶段五任务计划思路](https://github.com/ZhouQuan-7237/Tasks/blob/main/%E9%98%B6%E6%AE%B5%E4%BA%94%E5%AD%A6%E4%B9%A0%E6%88%90%E6%9E%9C/%E9%98%B6%E6%AE%B5%E4%BA%94%E4%BB%BB%E5%8A%A1%E8%AE%A1%E5%88%92%E6%80%9D%E8%B7%AF.md)
