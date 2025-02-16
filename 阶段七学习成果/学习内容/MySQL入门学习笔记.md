@@ -22,7 +22,7 @@
 
 MySQL是一款开源的关系型数据库管理系统（RDBMS），使用SQL语言，以高性能、可靠性和可扩展性着称，采用典型的客户端—服务器架构(C/S架构)。
 
-#### ![0ba93cacff7b4e25801ba244347fda30 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/0ba93cacff7b4e25801ba244347fda30 - 副本.png)2.
+#### ![image-20250216215331354](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216215331354.png)
 
 ![2d65cfb6aafc8aa48d6c3b0e0dcac2fc](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/2d65cfb6aafc8aa48d6c3b0e0dcac2fc.png)
 
@@ -531,4 +531,4 @@ CREATE TABLE student_course (
 
 ## 参考资料
 
-请查阅阶段七任务ji'hua
+请查阅阶段七任务计划思路
