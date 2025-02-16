@@ -96,9 +96,9 @@
 
 * **原理参考模型**：折中方案，常用于教学，简化理解。
 
-![408.oss-cn-hangzhou.aliyuncs.com体系结构 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/408.oss-cn-hangzhou.aliyuncs.com体系结构 - 副本.png)
+![image-20250216213646382](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216213646382.png)
 
-![7b98f2d89aa47ad6a888439461806a55 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/7b98f2d89aa47ad6a888439461806a55 - 副本.png)
+![image-20250216213748799](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216213748799.png)
 
 #### 2. OSI参考模型 
 
@@ -149,7 +149,7 @@
 
 ![img](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/1428261-20230613111522523-1912914160.png)
 
-![a4e3ddb8b128ee1d95879b89a00bd53a - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/a4e3ddb8b128ee1d95879b89a00bd53a - 副本.png)
+![image-20250216213858109](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216213858109.png)
 
 * **应用层**
   * 作用：为应用层、表示层和会话层的组合，用户和应用程序提供服务。它直接与用户交互，并处理不同应用程序之间的通信需求。
@@ -176,7 +176,7 @@
 
 #### 3.报文结构
 
-![ab4257062a72ce296f772115ed9d4784 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/ab4257062a72ce296f772115ed9d4784 - 副本.jpeg)
+![image-20250216213939164](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216213939164.png)
 
 ![d915908626573eaed06a170ced4170da](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/d915908626573eaed06a170ced4170da.png)
 
@@ -206,7 +206,7 @@
 
   * FIN（结束位）：指示发送方是否完成数据发送，FIN=1时表示发送方已无数据要发送且请求释放连接。
 
-  ![5279ba0bb380933fe170e9b2a9223510 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/5279ba0bb380933fe170e9b2a9223510 - 副本.png)
+  ![image-20250216214019481](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214019481.png)
 
   <img src="https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250208015440265.png" alt="image-20250208015440265"  />
 
@@ -224,13 +224,13 @@
 
 #### 4.握手挥手
 
-![8e1355bc70c91dd3c6e4affdb9c1a9bf - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/8e1355bc70c91dd3c6e4affdb9c1a9bf - 副本.png)
+![image-20250216214051318](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214051318.png)
 
 #### 三次握手（建立连接）
 
 ![f5c266e57582d19faf528629deeac7f4 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/f5c266e57582d19faf528629deeac7f4%20-%20%E5%89%AF%E6%9C%AC.png)
 
-![850de5c566ae60989f45cff4b1aad94c - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/850de5c566ae60989f45cff4b1aad94c - 副本.png)
+![image-20250216214119826](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214119826.png)
 
 * **握手过程：**
 
@@ -258,7 +258,9 @@
 
   * **第三次握手**：确认客户端的接收能力，确保客户端可以接收服务器的数据并完成连接的建立。
 
-#### 四次挥手（释放连接）![ae6ae19a2f06e0644935471cc5dee027 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/ae6ae19a2f06e0644935471cc5dee027 - 副本.png)![0dc25c2e6ae3de02cc4039553165d8cf - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/0dc25c2e6ae3de02cc4039553165d8cf - 副本.png)
+#### 四次挥手（释放连接）![image-20250216214151649](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214151649.png)
+
+![image-20250216214222249](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214222249.png)
 
 * **挥手过程**：
 
@@ -349,7 +351,7 @@ TIME-WAIT状态的原因是确保客户端发送的最后一个ACK报文能够�
 
 #### 1.报文结构
 
-![6f7cbe2d49c170624d5a8776b2db5997 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/6f7cbe2d49c170624d5a8776b2db5997 - 副本.png)
+![image-20250216214301287](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214301287.png)
 
 #### ![httpmessage](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/httpmessage.jpg)
 

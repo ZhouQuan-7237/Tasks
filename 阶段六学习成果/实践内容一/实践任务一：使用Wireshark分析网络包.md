@@ -23,7 +23,7 @@
 
 #### （1）HTTP请求报文结构
 
-![屏幕截图 2025-02-08 204543](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2025-02-08 204543.png)
+![image-20250216214433413](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214433413.png)
 
 - **方法**: `POST`
 - **HTTP版本**: `HTTP/1.1`
@@ -37,7 +37,7 @@
 
 #### （2）HTTP响应报文结构
 
-![屏幕截图 2025-02-08 205736](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/屏幕截图 2025-02-08 205736.png)
+![image-20250216214500104](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250216214500104.png)
 
 - **HTTP版本**: `HTTP/1.1`
 - **状态码**：`200`
