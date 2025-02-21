@@ -228,6 +228,14 @@ DESC 表格名;
 RENAME TABLE 旧表格名 TO 新表格名;
 ```
 
+* 重置 `users` 表的 `AUTO_INCREMENT` 值
+
+将 `AUTO_INCREMENT` 的起始值设置为 1，那么下一个插入的用户 ID 会从 1 开始
+
+```sql
+ALTER TABLE users AUTO_INCREMENT = 1;
+```
+
 #### 2.表格建联
 
 **2.1一对一关联**：在从表中添加一个外键，引用主表的主键或唯一键。

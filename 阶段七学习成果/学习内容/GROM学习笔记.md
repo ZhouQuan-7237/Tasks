@@ -160,7 +160,7 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
   * 虚拟机登录到 MySQL数据库
 
     ```
-    su'do mysql -u root -p
+    sudo mysql -u root -p
     ```
 
   * 虚拟机查看表是否成功创建，从而检查是否连接到MySQL 的数据库
