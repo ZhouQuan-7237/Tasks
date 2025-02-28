@@ -2,24 +2,112 @@
 
 ## 1.Wireshark观察TCP的报文结构
 
-![image-20250208202101257](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250208202101257.png)
+#### 步骤说明：
 
-* **源端口号**: `55493`
+##### step1. 启动Wireshark，选择接口（Wlan）
+
+双击网络连接接口开始捕获流量
+
+##### step2. 获取目标IP地址（以百度为例）
+
+终端输入以下指令：
+
+* IPV4:
+
+```bash
+ping —4 www.baidu.com //获取百度的ipv4地址
+```
+
+![image-20250226183751781](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250226183751781.png)
+
+* IPV6:
+
+```bash
+ping -6 www.baidu.com //获取百度的ipv6地址
+```
+
+![image-20250226073534849](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250226073534849.png)
+
+##### step3. 设置Wireshark过滤器
+
+* ##### IPV4:
+
+```
+ip.addr == 153.3.238.28 and tcp
+```
+
+表示只显示TCP协议且源主机IP或者目的主机IP为`153.3.238.28`的数据包
+
+* IPV6:
+
+```
+ipv6.addr == 2408:873d:22:18cb:0:ff:b037:e6d8 and tcp
+```
+
+表示只显示TCP协议且源主机IP或者目的主机IP为`2408:873d:22:18cb:0:ff:b037:e6d8`的数据包。
+
+##### step4. 触发TCP流量
+
+访问目标网站（如浏览器输入 `www.baidu.com`）
+
+或使用工具发送TCP请求：
+
+```bash
+curl http://www.baidu.com    # 发送HTTP请求（可能触发TCP连接）
+```
+
+##### step5. 查看TCP报文结构
+
+![image-20250226184124218](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250226184124218.png)
+
+![image-20250226184254174](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250226184254174.png)
+
+* **源端口号**: `52426`
 
 * **目的端口号**: `443`
-* **序列号**: `3934`
-* **确认号**: `1075`
+* **序列号**: `1361`
+* **确认号**: `1`
 * **数据偏移**: `5 (20 bytes)`
 * **保留位**: `0`
-* **标志位**: `0x010 (ACK)`
-* **窗口大小**: `251`
-* **校验和**: `0x74c4`
+* **标志位**: `0x018 (PSH,ACK)`
+* **窗口大小**: `255`
+* **校验和**: `0x39c5`
 * **紧急指针**: `0`
 * **选项**: `无`
 * **填充**: `无`
-* **数据**: `无` 
+* **数据**: `395 bytes` 
 
 ## 2.Wireshark观察HTTP的报文结构
+
+#### 步骤说明：
+
+##### step1. 启动Wireshark，选择接口（Wlan）
+
+双击网络连接接口开始捕获流量
+
+##### step2. 设置Wireshark过滤器
+
+Wireshark显示过滤器输入以下指令：
+
+```bash
+http.host == "baidu.com"    # 精确过滤目标域名
+```
+
+##### step3. 触发http流量
+
+访问目标网站（如浏览器输入 `http://baidu.com`）
+
+或使用工具发送TCP请求：
+
+```bash
+curl http://www.baidu.com/get    # 发送HTTP请求（可能触发http连接）
+```
+
+##### step5. 查看HTTP报文结构
+
+
+
+以下图片为Wireshark显示过滤器输入`http`指令得到的结果：
 
 #### （1）HTTP请求报文结构
 
@@ -59,6 +147,20 @@
 
 ## 3.Wireshark观察TCP的三次握手
 
+#### 步骤说明：
+
+##### step1. 启动Wireshark，选择接口（Wlan）
+
+双击网络连接接口开始捕获流量
+
+##### step2. 设置Wireshark过滤器
+
+Wireshark显示过滤器输入以下指令：
+
+```
+(tcp.flags.syn == 1 && tcp.flags.ack == 0) || (tcp.flags.syn == 1 && tcp.flags.ack == 1) || (tcp.flags.ack == 1 && tcp.flags.syn == 0 && tcp.flags.fin == 0)
+```
+
 ![image-20250208213400454](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250208213400454.png)
 
 * **第一次握手**: `[SYN]`:客户端向服务器发送一个SYN报文，表示请求建立连接。
@@ -67,6 +169,20 @@
 * **第三次握手**: `[ACK]`:客户端收到SYN, ACK报文后，发送一个ACK报文，表示连接建立完成。
 
 ## 4.Wireshark观察TCP的四次挥手
+
+#### 步骤说明：
+
+##### step1. 启动Wireshark，选择接口（Wlan）
+
+双击网络连接接口开始捕获流量
+
+##### step2. 设置Wireshark过滤器
+
+Wireshark显示过滤器输入以下指令：
+
+```
+(tcp.flags.fin == 1 && tcp.flags.ack == 0) || (tcp.flags.fin == 1 && tcp.flags.ack == 1) || (tcp.flags.ack == 1 && tcp.flags.fin == 0)
+```
 
 ![image-20250208214258858](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250208214258858.png)
 

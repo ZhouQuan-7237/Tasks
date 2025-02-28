@@ -25,17 +25,20 @@ func main() {   // 定义程序的主函数,程序从此处开始执行
 	//如果连接成功，打印"客户端已成功连接服务端"
     fmt.Println("客户端已成功连接服务端") 
 
-    //创建一个读取器bufio.Reader，它用来从标准输入（即用户在命令行中的输入）读取数据
+    //创建一个读取器bufio.NewReader，它用来从标准输入（即用户在命令行中的输入）读取数据
+    //bufio.NewReader创建一个读取器, os.Stdin表示标准输入（Standard Input）,通常是指通过键盘输入的内容 
+    //bufio.NewReader(os.Stdin)用标准输入作为读取器的输入源
+    //reader := bufio.NewReader(os.Stdin)创建一个读取标准输入的读取器,可以读取用户通过键盘输入的文本
     reader := bufio.NewReader(os.Stdin)
 
-	//启动一个无限循环，
+	//启动一个无限循环
 	//客户端将在这个循环中不断接收用户输入并与服务器进行交互，直到用户输入exit为止
     for {  
         
 		//提示用户在客户端输入消息
 		fmt.Print("请输入消息: ")  
         
-		//使用ReadString方法从标准输入读取字符串，直到遇到换行符（'\n'）为止
+		// 使用ReadString方法从标准输入读取字符串，直到遇到换行符（'\n'）为止
 		//读取到的字符串存储在message中，可能发生的错误存储在err中
 		message, err := reader.ReadString('\n')  
         //错误处理

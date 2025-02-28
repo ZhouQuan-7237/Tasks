@@ -164,7 +164,7 @@ CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,  -- 主键，自动递增
     username VARCHAR(50) NOT NULL,      -- 非空字段
     email VARCHAR(100) UNIQUE,          -- 唯一约束
-    age INT DEFAULT 18,                 -- 默认值
+    age INT DEFAULT 18                  -- 默认值
 );
 ```
 
@@ -310,7 +310,7 @@ CREATE TABLE student_course (
 
 实现学生和课程的多对多关系。
 
-##### 3.CURD语句
+#### 3.CURD语句
 
 * **Create（创建）**: 向表中添加新数据（`INSERT`）
 

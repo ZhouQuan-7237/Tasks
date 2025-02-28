@@ -1126,7 +1126,7 @@ func main() {
 
 ###### 10.43修改元素
 
-```
+```go
 package main
 
 import "fmt"
@@ -1396,11 +1396,58 @@ fmt.Println(double(5))  // 输出 10
 
 闭包是函数与其引用环境的组合，可以访问外部函数的变量。  
 
+它可以理解为一个 **“自带记忆功能的函数”**。
+
+它就像一个小背包，函数在执行时会把外部的变量“背”在身上，
+
+即使离开了原来的环境，也能继续使用这些变量。
+
 ###### 11.42特点
 
-捕获变量: 闭包可以捕获并保存外部函数的变量。
+* **记住外部变量**：闭包函数可以修改外部函数的变量，这些变量会一直存在。
 
-保持状态: 闭包可以记住并修改这些变量的值，从而实现有状态的函数。
+* **隔离作用域**：闭包内的变量是私有的，外部无法直接访问。
+
+###### 11.43举例
+
+假设你有一个计数器，每次调用函数就让数字+1：
+
+- **普通函数**：就像没有记忆的人，每次都会从0开始计数。
+- **闭包**：就像带着小本本的人，每次都会记住上次的数字，接着计数。
+
+**普通函数（无法记住状态）**
+
+```go
+func counter() int {
+    count := 0
+    count++
+    return count
+}
+
+func main() {
+    fmt.Println(counter()) // 每次都是 1
+    fmt.Println(counter()) // 还是 1
+}
+```
+
+**闭包（记住状态）**
+
+```go
+func createCounter() func() int {
+    count := 0       // 这个变量被闭包"背"在身上
+    return func() int {
+        count++      // 修改外部变量
+        return count
+    }
+}
+
+func main() {
+    myCounter := createCounter()
+    fmt.Println(myCounter()) // 1
+    fmt.Println(myCounter()) // 2
+    fmt.Println(myCounter()) // 3
+}
+```
 
 ```go
 package main
@@ -1622,6 +1669,8 @@ go get <package>@<version>  # 安装指定版本
 # 示例：
 go get github.com/gin-gonic/gin@v1.9.1  # 安装 v1.9.1
 go get -u github.com/gorilla/mux        # 更新到最新版本
+go get gorm.io/gorm						# 安装gorm
+go get gorm.io/driver/mysql				# 安装mysql驱动
 ```
 
 * 整理依赖  
@@ -1837,6 +1886,63 @@ func (接收器变量 接收器类型) 方法名(参数列表) (返回值类型)
 }
 ```
 
+假设你有一个 **“汽车”** 类型：
+
+- **属性**：颜色、品牌、速度（这些是汽车的“状态”）。
+- **方法**：启动、加速、刹车（这些是汽车的“行为”）。
+
+方法就是让汽车这个类型能够执行某些操作，比如启动、加速等。
+
+举例：
+
+##### 1. 定义结构体（类型）
+
+```go
+type Car struct {
+    Brand string
+    Speed int
+}
+```
+
+这里定义了一个 `Car` 类型，它有 `Brand`（品牌）和 `Speed`（速度）两个属性。
+
+**2. 定义方法（行为）**
+
+```go
+// 定义一个方法：启动汽车
+func (c Car) Start() {
+    fmt.Println(c.Brand, "启动了！")
+}
+
+// 定义一个方法：加速汽车
+func (c *Car) Accelerate(amount int) {
+    c.Speed += amount
+    fmt.Println(c.Brand, "加速到", c.Speed, "km/h")
+}
+```
+
+- `Start()` 是 `Car` 的一个方法，表示启动汽车。
+- `Accelerate(amount int)` 是另一个方法，表示加速汽车，并且可以修改汽车的速度。
+
+#### 3. **使用方法和结构体**
+
+```go
+func main() {
+    myCar := Car{Brand: "Tesla", Speed: 0} // 创建一辆汽车
+    myCar.Start()                          // 调用方法：启动
+    myCar.Accelerate(50)                   // 调用方法：加速
+}
+```
+
+#### 4.输出结果
+
+```go
+Tesla 启动了！
+Tesla 加速到 50 km/h
+```
+
+
+
 ```go
 package main
 
@@ -1972,9 +2078,9 @@ type Animal interface {
   >
   > 也就是说，只要实现接口类型中的方法的名称、参数列表、返回参数列表中的任意一项与接口要实现的方法不一致，那么接口的这个方法就不会被实现。
 
-* > 接口中所有方法均被实现
+* 接口中所有方法均被实现
 
-  当一个接口中有多个方法时，只有这些方法都被实现了，接口才能被正确编译并使用。
+  |当一个接口中有多个方法时，只有这些方法都被实现了，接口才能被正确编译并使用。
 
 ######  15.23类型与接口的关系
 
@@ -1989,12 +2095,12 @@ type Animal interface {
 我们就分别定义Sayer接口和Mover接口，如下： 
 
 ~~~go
-// Sayer 接口
+// 定义 Sayer 接口
 type Sayer interface {
     say()
 }
 
-// Mover 接口
+// 定义 Mover 接口
 type Mover interface {
     move()
 }
@@ -2003,6 +2109,7 @@ type Mover interface {
 dog既可以实现Sayer接口，也可以实现Mover接口。
 
 ~~~go
+// 定义 dog 结构体
 type dog struct {
     name string
 }
@@ -2017,15 +2124,22 @@ func (d dog) move() {
     fmt.Printf("%s会动\n", d.name)
 }
 
+// 主函数逻辑
 func main() {
+    // 声明接口变量
     var x Sayer
     var y Mover
 
+    // 创建一个 dog 实例
     var a = dog{name: "旺财"}
-    x = a
-    y = a
-    x.say()
-    y.move()
+
+    // 将 dog 实例赋值给接口变量
+    x = a  // 因为 dog 实现了 Sayer 接口
+    y = a  // 因为 dog 实现了 Mover 接口
+
+    // 通过接口变量调用方法
+    x.say()  // 输出：旺财会叫汪汪汪
+    y.move() // 输出：旺财会动
 }
 ~~~
 
@@ -2190,6 +2304,10 @@ x.(T)
 ~~~
 
 该语法返回两个参数，第一个参数是x转化为T类型后的变量，第二个值是一个布尔值，若为true则表示断言成功，为false则表示断言失败。
+
+##### 类型断言
+
+类型断言类似于 “拆盲盒”。假设你有一个接口类型的变量，但不确定它实际装的是什么具体类型（比如可能是 `Dog`、`Cat` 或其他），类型断言就是用来安全地拆开检查，确认具体类型并取出值
 
    ~~~go
 func main() {

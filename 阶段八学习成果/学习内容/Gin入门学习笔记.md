@@ -247,7 +247,7 @@ r.Run(":8080")       // 启动Web服务，监听8080端口
       // GET 请求
       r.GET("/path", func(c *gin.Context) {
       	// 处理 GET 请求逻辑
-      	c.JSON(200, gin.H{"message": "This is a GET request"})
+      	c.JSON(  200, gin.H{"message": "This is a GET request"})
       })
       
       // POST 请求

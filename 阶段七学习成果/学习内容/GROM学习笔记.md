@@ -232,7 +232,7 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
     - **零值类型**：使用 `sql.NullType` 处理数据库中可能包含 `NULL` 的字段。
     - **忽略字段**:   使用 `gorm:"-"` 忽略无需映射到数据库表的结构体字段。
 
-    ```
+    ```GO
     type User struct {
         ID       uint
         Name     string
@@ -259,23 +259,25 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
 
       ```go
       user := User{Name: "Alice", Age: 25}
+      
       db.Create(&user) 
       ```
-
+  
     * **插入多条记录**
-
+  
       ```go
       users := []User{
           {Name: "Bob", Age: 20},
           {Name: "Charlie", Age: 30},
       }
+      
       db.Create(&users) 
       ```
 
   * **4.22读取（Read）**
 
     * **简单查询**
-
+  
     ```go
     var user User
     db.First(&user, 1) // 根据主键查询
@@ -286,14 +288,14 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
     ```
 
     * **条件查询**
-
+  
     ```go
     db.Where("age > ?", 18).Find(&users) // 查询年龄大于 18 的用户
     db.Where("name = ? AND age > ?", "Alice", 20).Find(&users) // 多条件查询
     ```
 
     * **排序和分页**
-
+  
     ```go
     db.Order("age ASC").Find(&users) // 按年龄升序排序
     db.Order("age DESC").Find(&users) // 按年龄降序排序
@@ -303,7 +305,7 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
   * **4.23更新（Update）**
 
     * **更新所有记录**
-
+  
       ```go
       var user User
       db.First(&user, 1) // 查询记录
@@ -312,13 +314,13 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
       ```
 
     * **更新单条记录**
-
+  
       ```go
       db.Model(&user).Update("age", 26) 
       ```
 
     * **更新多条记录**
-
+  
       ```go
       db.Model(&user).Updates(User{Name: "Alice", Age: 26})
       ```
@@ -326,7 +328,7 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
   * **4.24删除（Delete）**
 
     * **删除单条记录**
-
+  
       ```go
       var user User
       db.First(&user, 1) // 查询记录
@@ -334,11 +336,11 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
       ```
 
     * **删除多条记录**
-
+  
       ```go
       db.Where("age > ?", 18).Delete(&User{}) // 删除所有年龄大于 18 的用户
       ```
 
 ## 参考资料
 
-请查阅阶段七任务计划思路
+请查阅阶段七任务计划思路 
