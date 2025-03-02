@@ -44,7 +44,7 @@ func AuthMiddleware() gin.HandlerFunc {
         tokenString = strings.TrimPrefix(tokenString, "Bearer ")
 
         // 解析令牌并验证有效性
-        //jwt.Parse 方法使用提供的密钥验证令牌的签名，如果签名有效，token 对象将包含解析后的令牌信息，如果签名无效，err将包含错误信息
+        //jwt.Parse方法解析令牌字符串并验证其令牌签名的有效性，如果签名有效，token对象将包含解析后的令牌信息，如果签名无效，err将包含错误信息
         //jwt.Parse：调用jwt包中的Parse方法，解析JWT令牌
         //tokenString：要解析的JWT令牌字符串
         //func(token *jwt.Token) (interface{}, error)：解析函数，用于验证令牌的签名

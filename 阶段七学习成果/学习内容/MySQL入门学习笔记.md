@@ -6,7 +6,7 @@
 
 1. MySQL基础介绍
 2. MySQL前世今生
-3. MySQL remote连接
+3. MySQLremote连接
 
 二.MySQL学习
 
@@ -159,7 +159,7 @@ SQL：结构化查询语言，用来与数据库进行沟通；
 
 表格举例：
 
-```
+```sql
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,  -- 主键，自动递增
     username VARCHAR(50) NOT NULL,      -- 非空字段

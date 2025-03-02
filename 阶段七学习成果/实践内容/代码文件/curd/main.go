@@ -61,6 +61,7 @@ func createUser(db *gorm.DB, name string, gender string, mbti string) {
 	//使用GORM的Create方法将用户数据插入到数据库
 	//db.Create()是GORM提供将数据插入到数据库中的对应表的方法
 	//&user是user的指针，因为GORM需要修改传入的user对象，插入完成后它会将数据库中生成的ID等信息填充回user中
+	//传递指针是为了让 GORM 能够直接修改原始对象，确保数据库生成的字段能够被正确回填
 	//result存储Create方法的返回值，result 是一个包含操作结果的结构体，里面包含了Error字段，用来记录插入过程中发生的错误信息
 	result := db.Create(&user)
 	//如果插入失败，打印错误信息

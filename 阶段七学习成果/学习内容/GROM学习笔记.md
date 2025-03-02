@@ -169,7 +169,7 @@ GORM是一个为Go语言设计的ORM库，通过对象关系映射（ORM）将�
     SHOW TABLES;
     ```
 
-  * 如果Workbench已经连接到虚拟机的MySQL数据库，还可以在虚拟机上查看表是否成功创建，从而检查是否成功MySQL 的数据库
+  * 如果Workbench已经连接到虚拟机的MySQL数据库，还可以在虚拟机上查看表是否成功创建，从而检查是否成功连接到MySQL的数据库
 
     ```
     SHOW TABLES;

@@ -373,7 +373,7 @@ TIME-WAIT状态的原因是确保客户端发送的最后一个ACK报文能够�
 
   **2）详细**：
 
-  * **请求行**：由请求方法、请求URI和HTTP协议版本三个部分组成，
+  * **请求行**：由请求方法、请求URL和HTTP协议版本三个部分组成，
 
     ​	格式为：`Method Request-URI HTTP-Version`，比如：`GET /index.html HTTP/1.1`。
 

@@ -62,9 +62,9 @@ curl http://www.baidu.com    # 发送HTTP请求（可能触发TCP连接）
 
 ![image-20250226184254174](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250226184254174.png)
 
-* **源端口号**: `52426`
+* **源端口**: `52426`
 
-* **目的端口号**: `443`
+* **目的端口**: `443`
 * **序列号**: `1361`
 * **确认号**: `1`
 * **数据偏移**: `5 (20 bytes)`

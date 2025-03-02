@@ -12,23 +12,27 @@ import (
 //SetupRouter设置项目的路由
 //*gin.Engine 是Gin框架的路由引擎类型，用于定义和管理路由
 //*SetupRouter() *gin.Engine会执行以下操作：
-//1.创建一个 gin.Engine 实例（Gin 框架的核心对象）。
+//1.创建一个 gin.Engine实例 r（Gin 框架的核心对象）。
 //2.在这个实例上定义所有的路由规则（例如 /register、/login 等接口）。
-//3.返回这个配置好的 gin.Engine 实例
+//3.返回这个配置好的 gin.Engine 实例。
 func SetupRouter() *gin.Engine {
     //gin.Default()：创建一个默认的Gin路由引擎实例,并赋值给r，用于定义和管理路由
     r := gin.Default()
 
     // 公共接口
-    //定义一个POST请求的路由，路径为/register，处理函数为controllers.Register
+
+    //功能：注册接口 实现形式：POST请求的路由
+    //定义一个POST请求的路由，路由路径为/register，处理函数为controllers.Register
     //r.POST：定义一个POST请求的路由
-    //"/register"：路由路径，表示注册接口
+    //"/register"：路由路径，也是注册接口的路径
     //controllers.Register：controllers包里的Register函数，用于处理注册请求
+    //所有POST到/register的请求，都交给controllers.Register函数处理
     r.POST("/register", controllers.Register)
 
+    //功能：登录接口 实现形式：POST请求的路由
     //定义一个POST请求的路由，路径为/login，处理函数为controllers包里的Login函数
     //r.POST：定义一个POST请求的路由
-    //"/login"：路由路径，表示登录接口
+    //"/login"：路由路径，也是登录接口的路径
     //controllers.Login：controllers包里的Login函数，用于处理登录请求
     r.POST("/login", controllers.Login)
 

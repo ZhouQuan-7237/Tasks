@@ -27,7 +27,7 @@ type RegisterRequest struct {
 
 // Register函数处理用户注册请求
 //Register函数接收一个参数c，类型是*gin.Context(是一个指向gin.Context的指针或是一个*gin.Context实例)用于处理请求和生成响应
-//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法
+//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法，是一个容器，装满了处理请求和生成响应的工具
 //gin.Context作用：
 //1.处理请求：gin.Context包含了HTTP请求的所有信息，比如请求头、请求体、路由参数等
 //2.生成响应：gin.Context提供了方法来生成 HTTP 响应，比如c.JSON、c.HTML、c.Redirect等
@@ -111,7 +111,7 @@ type LoginRequest struct {
 
 // Login函数处理用户登录请求
 //Login函数接收一个参数c，类型是*gin.Context(是一个指向gin.Context的指针或是一个*gin.Context实例)，用于处理请求和生成响应
-//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法
+//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法，是一个容器，装满了处理请求和生成响应的工具
 //gin.Context作用：
 //1.处理请求：gin.Context包含了HTTP请求的所有信息，比如请求头、请求体、路由参数等
 //2.生成响应：gin.Context提供了方法来生成 HTTP 响应，比如c.JSON、c.HTML、c.Redirect等
@@ -217,7 +217,7 @@ func Login(c *gin.Context) {
 
 // UpdateUser函数处理更新用户信息的请求
 //UpdateUser函数接收一个参数c，类型是*gin.Context(是一个指向gin.Context的指针或是一个*gin.Context实例)，用于处理请求和生成响应
-//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法
+//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法，是一个容器，装满了处理请求和生成响应的工具
 //gin.Context作用：
 //1.处理请求：gin.Context包含了HTTP请求的所有信息，比如请求头、请求体、路由参数等
 //2.生成响应：gin.Context提供了方法来生成 HTTP 响应，比如c.JSON、c.HTML、c.Redirect等
@@ -321,7 +321,7 @@ func UpdateUser(c *gin.Context) {
 
 // DeleteUser函数处理删除用户请求
 //DeleteUser函数接收一个参数c，类型是*gin.Context(是一个指向gin.Context的指针或是一个*gin.Context实例)，用于处理请求和生成响应
-//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法
+//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法，是一个容器，装满了处理请求和生成响应的工具
 //gin.Context作用：
 //1.处理请求：gin.Context包含了HTTP请求的所有信息，比如请求头、请求体、路由参数等
 //2.生成响应：gin.Context提供了方法来生成 HTTP 响应，比如c.JSON、c.HTML、c.Redirect等
@@ -362,7 +362,7 @@ func DeleteUser(c *gin.Context) {
 
 // GetUser函数处理获取单个用户信息请求
 //GetUser函数接收一个参数c，类型是*gin.Context(是一个指向gin.Context的指针或是一个*gin.Context实例)，用于处理请求和生成响应
-//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法
+//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法，是一个容器，装满了处理请求和生成响应的工具
 //gin.Context作用：
 //1.处理请求：gin.Context包含了HTTP请求的所有信息，比如请求头、请求体、路由参数等
 //2.生成响应：gin.Context提供了方法来生成 HTTP 响应，比如c.JSON、c.HTML、c.Redirect等
@@ -408,7 +408,7 @@ func GetUser(c *gin.Context) {
 
 // GetAllUsers函数处理获取所有用户信息请求
 //GetAllUsers函数接收一个参数c，类型是*gin.Context(是一个指向gin.Context的指针或是一个*gin.Context实例)，用于处理请求和生成响应
-//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法
+//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法，是一个容器，装满了处理请求和生成响应的工具
 //gin.Context作用：
 //1.处理请求：gin.Context包含了HTTP请求的所有信息，比如请求头、请求体、路由参数等
 //2.生成响应：gin.Context提供了方法来生成 HTTP 响应，比如c.JSON、c.HTML、c.Redirect等
@@ -445,7 +445,7 @@ func GetAllUsers(c *gin.Context) {
 
 // ApproveUser函数处理审核用户请求
 //ApproveUser函数接收一个参数c，类型是*gin.Context(是一个指向gin.Context的指针或是一个*gin.Context实例)，用于处理请求和生成响应
-//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法
+//gin.Context：Gin框架的核心结构体，包含请求和响应的所有信息，以及一些便捷的方法，是一个容器，装满了处理请求和生成响应的工具
 //gin.Context作用：
 //1.处理请求：gin.Context包含了HTTP请求的所有信息，比如请求头、请求体、路由参数等
 //2.生成响应：gin.Context提供了方法来生成 HTTP 响应，比如c.JSON、c.HTML、c.Redirect等

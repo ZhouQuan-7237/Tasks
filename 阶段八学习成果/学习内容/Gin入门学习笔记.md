@@ -224,12 +224,12 @@ r.Run(":8080")       // 启动Web服务，监听8080端口
 * **路由结构**
 
   ```go
-  r.Method("PATH", handler {
+  r.GET("/path", handler) {
   	//处理函数执行逻辑
   })
   ```
 
-  访问`URL路径`会触发`Method`请求，并执行`handle`函数。
+  当客户端通过 HTTP 方法 `GET`访问指定路径 `path` 时，执行对应的处理函数 `handler`。
 
   * **HTTP 方法**
 
@@ -780,7 +780,7 @@ RESTful API 是基于HTTP 协议和 REST 架构风格的 API 设计方式，使�
 
     有效载荷包含实际要传递的声明（Claims）。声明通常是关于用户身份、权限等信息。有效载荷包括以下类型的声明：
 
-    - 注册声明：JWT 规范定义的标准声明，例如：
+    - **注册声明**：JWT 规范定义的标准声明，例如：
       - `iat`（Issued At）：签发时间。
       - `exp`（Expiration Time）：过期时间。
       - `sub`（Subject）：主题（通常是用户 ID）。
