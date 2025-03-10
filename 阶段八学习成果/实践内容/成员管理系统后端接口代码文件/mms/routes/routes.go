@@ -101,8 +101,8 @@ func SetupRouter() *gin.Engine {
         //定义一个PUT请求的路由，路径为/users/:id/approve:id，处理函数为controllers包的ApproveUser函数
         //admin：子路由组实例
         //PUT：HTTP方法，表示更新操作
-        //"/users/:id/approve"：路由路径，表示更新用户的接口
-        //controllers.ApproveUser：controllers包的ApproveUser函数，用于处理更新用户的请求
+        //"/users/:id/approve"：路由路径，表示审核用户的接口
+        //controllers.ApproveUser：controllers包的ApproveUser函数，用于处理审核用户的请求
         admin.PUT("/users/:id/approve", controllers.ApproveUser)
     }
 

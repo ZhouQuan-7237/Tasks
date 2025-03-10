@@ -32,7 +32,7 @@ ping -6 www.baidu.com //获取百度的ipv6地址
 
 * ##### IPV4:
 
-```
+```bash
 ip.addr == 153.3.238.28 and tcp
 ```
 
@@ -40,7 +40,7 @@ ip.addr == 153.3.238.28 and tcp
 
 * IPV6:
 
-```
+```bash
 ipv6.addr == 2408:873d:22:18cb:0:ff:b037:e6d8 and tcp
 ```
 
@@ -103,7 +103,7 @@ http.host == "baidu.com"    # 精确过滤目标域名
 curl http://www.baidu.com/get    # 发送HTTP请求（可能触发http连接）
 ```
 
-##### step5. 查看HTTP报文结构
+##### step4. 查看HTTP报文结构
 
 
 

@@ -1,4 +1,4 @@
-// 声明当前文件属于main包
+// 声明当前文件属于config包
 package config
 
 // 导入其他包或模块

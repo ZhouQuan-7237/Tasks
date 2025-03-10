@@ -34,6 +34,7 @@
 - **协议过滤**：
   - 过滤所有 TCP 包：`tcp`
   - 过滤 HTTP 请求：`http.request`
+  - 过滤 HTTP 响应：`http.response`
   - 过滤 ICMP 包：`icmp`
 - **IP 地址过滤**：
   - 过滤特定源 IP 地址：`ip.src == 192.168.1.1`

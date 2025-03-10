@@ -142,7 +142,7 @@ func AuthMiddleware() gin.HandlerFunc {
     }
 }
 
-// 定义一个中间件函数，用于处理用户认证
+// 定义一个中间件函数，用于处理管理员认证
 //AuthMiddleware函数返回一个gin.HandlerFunc类型的中间件
 //gin.HandlerFunc是Gin框架中的中间件函数类型，用于定义中间件的逻辑
 func AdminMiddleware() gin.HandlerFunc {
