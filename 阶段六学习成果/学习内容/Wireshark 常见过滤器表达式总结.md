@@ -4,7 +4,7 @@
 
 #### **1. 捕获过滤器（Capture Filters）**
 
-捕获过滤器在数据包捕获阶段进行筛选，使用 Berkeley Packet Filter（BPF）语法。![a1a01386dc6b42e951753bbeb5c7cf98 - 副本](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/a1a01386dc6b42e951753bbeb5c7cf98%20-%20%E5%89%AF%E6%9C%AC.jpeg)
+捕获过滤器在数据包捕获阶段进行筛选，使用 Berkeley Packet Filter（BPF）语法。![image-20250318075026269](https://raw.githubusercontent.com/ZhouQuan-7237/image-bed/main/image-20250318075026269.png)
 
 - **协议过滤**：
   - 捕获所有 TCP 包：`tcp`
